@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d0a3a3"
+    tools:context="com.example.rakeshdeshpande.t_ember.signin">
+
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:id="@+id/signinuser"
+            android:hint="username"
+            android:textColorHint="#3c261f"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/ic_person_white_24dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColorHint="#3c261f"
+            android:id="@+id/signinpassword"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_lock_white_24dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Sign In"
+            android:id="@+id/signing"
+            android:textStyle="bold"
+            android:background="@drawable/background_login"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:text="Developed by R@D"
+            />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d0a3a3"
+    tools:context="com.example.rakeshdeshpande.t_ember.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:id="@+id/l1"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:layout_marginTop="100dp"
+            android:hint="Username"
+            android:textColorHint="#3c261f"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/ic_person_white_24dp"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:textColorHint="#3c261f"
+            android:layout_marginTop="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_lock_white_24dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/confirmpassword"
+            android:textColorHint="#3c261f"
+            android:layout_marginTop="10dp"
+            android:hint="Re-enter Password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_lock_white_24dp"
+            android:clickable="true"
+            />
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_gravity="center"
+            android:id="@+id/signup"
+            android:background="@drawable/background_login"
+            />
+
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signinmsgs"
+            android:text="Existing user? Click Sign In"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:layout_gravity="center"
+            android:id="@+id/signin"
+            android:background="@drawable/background_login"
+            android:clickable="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="110dp"
+
+            android:text="Developed by R@D"
+            />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

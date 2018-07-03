@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "322249357129",
+    "firebase_url": "https://t-ember.firebaseio.com",
+    "project_id": "t-ember",
+    "storage_bucket": "t-ember.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322249357129:android:c4a26b6dd273f5b3",
+        "android_client_info": {
+          "package_name": "com.example.rakeshdeshpande.t_ember"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322249357129-ea07c6tr75c5nv3civ008s85vvj6hi0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyHJZLe5LZ34ZIkulqd_XOZEQvtKn1nBY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
